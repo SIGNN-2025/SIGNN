@@ -29,15 +29,6 @@ pip install -r requirements/build.txt
 pip install -v -e . 
 ```
 
-## Backbone Weight Preparation
-
-Download the ResNet50 model for training from this [link](https://drive.google.com/file/d/1tcRtU-CBu1q00cnnZ6jiF2vvQCzY0a4P/view?usp=sharing).
-```
-SIGNN
-├── resnet_model
-│   ├──res50_loadfrom.pth
-```
-
 ## Datasets Preparation
 
 Download coco dataset and voc dataset from the official
