@@ -1,5 +1,5 @@
 # SAM-injected Graph Neural Network for One-Shot Object Detection
-![SIGNN](images/SIGNN.png)
+![SIGNN](images/SIGNN.jpg)
 ## Installation
 
 1. Create a conda virtual environment and activate it
