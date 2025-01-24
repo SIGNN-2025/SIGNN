@@ -29,16 +29,6 @@ pip install -r requirements/build.txt
 pip install -v -e . 
 ```
 
-## Datasets Preparation
-
-Download coco dataset and voc dataset from the official websites. ```
-
-4. Install build requirements and then install MMDetection.
-
-```shell
-pip install -r requirements/build.txt
-pip install -v -e . 
-```
 ## Backbone Weight Preparation
 
 Download the ResNet50 model for training from this [link](https://drive.google.com/file/d/1tcRtU-CBu1q00cnnZ6jiF2vvQCzY0a4P/view?usp=sharing).
@@ -82,6 +72,13 @@ SIGNN
 │   ├──res50_loadfrom.pth
 ```
 Download the pretrained models for inferencing from this [link](https://pan.baidu.com/s/1dR7UhPZ9JamQZYDmNVmSAw?pwd=ih5w).
+
+```
+SIGNN
+├── workdirs
+│   ├──split1.pth
+│   ├──split2.pth
+```
 
 ## Inference with a pretrained model
 ```shell
